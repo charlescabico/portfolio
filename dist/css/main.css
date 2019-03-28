@@ -40,7 +40,7 @@
     opacity: 0.9;
     margin: 0;
     padding: 0;
-    background: #0c0e12;
+    background: black;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-in-out; }
@@ -60,14 +60,14 @@
       background-size: cover;
       background-position: center;
       border-radius: 50%;
-      border: solid 3px #f4a950; }
+      border: solid 3px #f04b2f; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-in-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f4a950; }
+      color: #f04b2f; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -79,7 +79,7 @@
     text-decoration: none;
     transition: all 0.5s ease-in-out; }
     .menu .nav-link:hover {
-      color: #f4a950; }
+      color: #f04b2f; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -97,11 +97,11 @@
   box-sizing: border-box; }
 
 body {
-  background: #161b21;
+  background: #0c0c0c;
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/ai-artificial-intelligence-code-34676.jpg);
@@ -115,7 +115,7 @@ body {
       top: 0;
       right: 0;
       z-index: -1;
-      background: rgba(22, 27, 33, 0.9); }
+      background: rgba(12, 12, 12, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -125,7 +125,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(26, 32, 39, 0.5); }
+    background: rgba(17, 17, 17, 0.5); }
 
 a {
   color: #fff;
@@ -137,7 +137,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f4a950; }
+  color: #f04b2f; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
       main .icons a > i {
         font-size: 30px; }
       main .icons a:hover {
-        color: #f4a950;
+        color: #f04b2f;
         transition: all 0.5s ease-in-out; }
   main#home {
     overflow: hidden; }
@@ -166,7 +166,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #f4a950 3px solid; }
+    border: #f04b2f 3px solid; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job-1 {
@@ -176,9 +176,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #202830;
+    background: #191919;
     padding: 0.5rem;
-    border-bottom: #f4a950 5px solid; }
+    border-bottom: #f04b2f 5px solid; }
 
 .projects {
   display: grid;
@@ -189,7 +189,7 @@ main {
     width: 100%; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #f4a950;
+      border-color: #f04b2f;
       transition: all 0.5s ease-in-out; }
 
 .boxes {
@@ -206,7 +206,7 @@ main {
     transition: all 0.5s ease-in-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #f4a950;
+      background: #f04b2f;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -217,7 +217,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f4a950;
+    background: #f04b2f;
     color: #000; }
 
 .btn-dark {
@@ -225,7 +225,7 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #8799af;
+  background: #8c8c8c;
   color: #333; }
 
 #main-footer {
@@ -237,7 +237,7 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
